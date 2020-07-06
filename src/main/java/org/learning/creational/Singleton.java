@@ -38,4 +38,15 @@ public class Singleton {
 		}
 		return instance;
 	}
+	
+	public void printInstance() {
+		System.out.println("SingletonInstance");
+	}
+	
+	public static void main(String[] args) {
+		Singleton instance = Singleton.getInstance();
+		instance.printInstance();
+		
+
+	}
 }
