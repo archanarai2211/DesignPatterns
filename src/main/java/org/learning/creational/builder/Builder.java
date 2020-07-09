@@ -1,4 +1,4 @@
-package org.learning.creational;
+package org.learning.creational.builder;
 
 public class Builder {
 	
