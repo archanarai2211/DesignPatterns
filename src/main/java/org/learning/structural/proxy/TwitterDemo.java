@@ -2,6 +2,8 @@ package org.learning.structural.proxy;
 
 public class TwitterDemo {
 
+	//only one proxy
+	//Dependency injection
 	public static void main(String[] args) {
 		TwitterService service = (TwitterService)SecurityProxy.newInstance(new TwitterServiceImpl());
 		
